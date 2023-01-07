@@ -1,0 +1,39 @@
+h1 {  /* selector de tipos */
+    color:yellowgreen;
+    text-align: center;
+}
+h2 {
+    color:violet;
+    
+    font-family: 'Amatic SC', cursive;
+
+
+}
+
+/*selectores de clase
+selecciona elementos de clase especifica seleccionada*/
+.tipos-tamales{
+    background-color: slateblue;
+}
+
+/*selectores de id 
+no se comparte con algun otro elemento*/
+
+#sabores{
+    color: red;
+}
+
+/*pone estilos a la tabla*/
+
+table{
+    text-align: center;
+    border: 2px solid black;
+}
+
+td, th{
+    border: 1px dotted black;
+}
+
+.T2 {
+    border: 0.05cm dashed green; 
+}

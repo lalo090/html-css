@@ -1,0 +1,14 @@
+/*fuente encabezado, color, algo a las imagenes */
+table{
+    text-align: center;
+    border: 2px solid black;
+}
+
+td, th{
+    border: 1px dotted black;
+}
+
+
+.T2 {
+    border: 0.05cm dashed green; 
+}

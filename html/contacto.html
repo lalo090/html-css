@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="/ch22/assets/css/contacto.css">
+</head>
+<body>
+    <header>
+        <h1>Contáctanos</h1>
+    </header>
+
+    <main>
+        <section>
+            <form action="">
+                <fieldset>
+                    <legend> Datos personales</legend>
+
+                    <label for="name"> Nombre:</label>
+                    <input id="name" type="text" placeholder="Nombre" required>
+<br>
+                    <label for="last-name"> Apellido:</label>
+                    <input id="last-name" type="text" placeholder="Apellido" required>
+<br>
+                    <label for="email"> email</label>
+                    <input id="email" type="mail" placeholder="mail@mail.com">
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Datos del pedido</legend>
+                    
+        
+                        <label for="number-of-tamales"> ¿Cuántos tamales requiere? </label>
+                        <input id="number-of-tamales" type="number" min="20" max="500" required> <!--Indicamos los valores mínimos y máximos requeridos-->
+                        <br>
+                        <br>
+                        <label for="atole"> ¿Cuántos litros de atole requiere? <input id="atole" type="number" min="2" max="50"> </label>
+                        <br>
+                        <br>
+        
+                        <label for="date"> Fecha del evento: <input id="date" type="date"></label>
+        
+                    
+        
+        
+                </fieldset>
+
+                <fieldset>
+                    <legend> Datos del envío </legend>
+                    <select name="stores" id="stores">
+                        <option value="Sucursal Azcapotzalco"> Sucursal Azcapotzalco</option>
+                        <option value="Sucursal Acuitlapilco"> Sucursal Acuitlapilco</option>
+                        <option value="Sucursal Ciudad Alegre"> Sucursal Ciudad Alegre</option>
+                        <option value="Envío a domicilio"> Envío a domicilio</option>
+                    </select>
+                    <!--Aquí se hace scroll para elegir la opción que deseamos-->
+                    <input list="storestwo">
+                    <datalist id="storestwo">
+                        <option value="Sucursal Azcapotzalco"> Sucursal Azcapotzalco</option>
+                        <option value="Sucursal Acuitlapilco"> Sucursal Acuitlapilco</option>
+                        <option value="Sucursal Ciudad Alegre"> Sucursal Ciudad Alegre</option>
+                        <option value="Envío a domicilio"> Envío a domicilio</option>
+                    </datalist>
+                    <br>
+                    <br>
+
+                    <input id="delivery" type="radio" name="type-of-delivery" >Recoger en sucursal
+                    <input id="order" type="radio" name="type-of-delivery" > Envio a domicilio
+                    
+                    <br>
+
+                    <label for="verified"> <input id="verified" type="checkbox">He leído y acepto los terminos y condiciones</label>
+
+                    <br><br>
+
+                    <input type="submit">
+
+                    <br><br>
+
+                    <button type="submit" > Enviar ia</button>
+
+
+                </fieldset>
+    
+    
+
+            </form>
+        </section>
+    </main>
+    
+</body>
+</html>

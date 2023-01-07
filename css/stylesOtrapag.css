@@ -1,0 +1,31 @@
+header > h1 { /*selectores combinadores*/
+    color: blue;
+    text-align: center;
+    font-style: italic;
+    background-color: beige;
+}
+
+nav > ul{
+    display: flex;
+    justify-content: center;
+    background-color: burlywood;
+    width: 960px;
+    height: 130px;
+    border-radius: 30px;
+}
+
+li{
+    padding: 50px;
+    font-size: 1.5em;
+    list-style-type: none;
+}
+
+a[href="/ch22/index.html"] { /*selector de atributo*/
+    color: gainsboro;
+}
+
+footer{
+    text-align: center;
+    text-decoration: underline;
+}
+
